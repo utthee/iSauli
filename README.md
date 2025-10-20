@@ -4,7 +4,8 @@ This project will be created as an updated version to the [previous project](htt
 
 ## Features
 The following application has the following features:
-1. Simple and minimalistic design.
-2. Cross-matching logic between items.
-3. CRUDL of the items managed by the system.
-4. Lists of logs made by the students to the system.
+1. Simple and minimalistic design;
+2. Cross-matching logic between items;
+3. CRUDL of the items managed by the system;
+4. Lists of logs made by the students to the system; and
+5. Simple user feedback.
