@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify
 from flask_cors import CORS
 from dotenv import load_dotenv
 import os
@@ -10,8 +10,16 @@ def create_app():
     # Enable CORS for all routes and origins
     CORS(app)
 
-    @app.route("/items")
+    @app.route("/api/items", methods=['GET'])
     def items():
-        return {"items": ["Item1", "Item2", "Item3"]}
+        return jsonify(
+            {
+                "items":[
+                    'item1',
+                    'phone',
+                    'item3'
+                ]
+            }
+        )
 
     return app
