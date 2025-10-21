@@ -3,7 +3,7 @@ iSauli is a simple lost and found management system that will be created using F
 This project will be created as an updated version to the [previous project](https://github.com/brexer/lost-and-found-system.git) created during CCC151.
 
 ## Features
-The following application has the following features:
+The following application will have the following features:
 1. Simple and minimalistic design;
 2. Cross-matching logic between items;
 3. CRUDL of the items managed by the system;
