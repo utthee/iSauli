@@ -8,4 +8,4 @@ The following application will have the following features:
 2. Cross-matching logic between items;
 3. CRUDL of the items managed by the system;
 4. Lists of logs made by the students to the system; and
-5. Simple user feedback.
+5. Simple active feedback.
